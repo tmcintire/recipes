@@ -19,7 +19,7 @@ export class Nav extends React.Component {
   render() {
     return (
       <div className="nav-side-menu">
-        <div className="brand">RecipeMe</div>
+        <div className="brand">Recipes</div>
         <i className="fa fa-bars fa-2x toggle-btn" data-toggle="collapse" data-target="#menu-content" />
         <div className="menu-list">
           <ul id="menu-content" className="menu-content collapse out">
