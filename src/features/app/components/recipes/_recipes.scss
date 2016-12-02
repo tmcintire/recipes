@@ -18,6 +18,15 @@
 }
 
 .recipe-listing {
+  margin: 0 auto;
+  width: 65%;
   display: flex;
-  justify-content: center;
+  flex-direction: row;
+  justify-content: space-around;
+  border: 1px solid black;
+}
+
+.recipe-detail {
+  border: 1px solid black;
+  width: 200px;
 }

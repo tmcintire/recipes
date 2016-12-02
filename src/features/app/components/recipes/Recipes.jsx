@@ -24,3 +24,7 @@ export class Recipes extends React.Component {
     );
   }
 }
+
+Recipes.propTypes = {
+  recipes: React.PropTypes.object, //eslint-disable-line
+};
