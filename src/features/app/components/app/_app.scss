@@ -1,0 +1,32 @@
+$wrapper-top: 20px;
+$wrapper-bottom: 20px;
+$total-margins: $wrapper-top + $wrapper-bottom;
+/* Wrappers */
+	.main-wrapper {
+	    min-height: calc(100vh - #{$total-margins});
+      height: auto;
+	    margin-top: $wrapper-top;
+	    margin-bottom: $wrapper-bottom;
+	    border: 1px solid black;
+	    padding: 10px;
+	    background: white;
+	    box-shadow: 2px 2px 2px 2px black;
+	    border-radius: 5px;
+	    padding-bottom: 30px;
+	    width: calc(100vw - 335px);
+	    margin-left: 300px;
+	    margin-right: 35px;
+	}
+/* End Wrappers */
+
+
+@media (max-width: 767px) {
+  .main-wrapper {
+    width: 100%;
+    height: 100vh;
+    border: 0;
+    border-radius: 0;
+    padding: 0;
+    margin: 0;
+  }
+}
